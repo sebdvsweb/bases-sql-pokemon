@@ -79,7 +79,7 @@ Trouver et notez sur un document Word ou Openoffice les requêtes SQL permettant
 13. Quels sont les noms des Pokémon dont le nom contient au moins 5 caractères ?
 14. Quels sont les noms des Pokémon dont le nom commence par une voyelle ?
 15. Quels sont les noms et les types des Pokémon dont le type secondaire est Poison ?
-16. Comment insérer un nouveau Pokémon dans la table avec les informations souhaitées ?
+16. Comment insérer un nouveau Pokémon dans la table avec les informations suivantes : `'Ronflex', 'Normal', 143, 110, 65, 160, 'Combat'`  ?
 17. Comment modifier le type de Carapuce en Eau/Acier ?
 18. Quels sont les noms des Pokémon contenant la chaîne de caractères "sa" ?
 19. Quelle est la faiblesse principale la plus fréquente parmi tous les Pokémon ?
