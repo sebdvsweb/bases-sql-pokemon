@@ -69,6 +69,10 @@ Trouver et notez sur un document Word ou Openoffice les requêtes SQL permettant
 17. Comment modifier le type de Carapuce en Eau/Acier ?
 18. Quels sont les noms des Pokémon contenant la chaîne de caractères "sa" ?
 19. Quelle est la faiblesse principale la plus fréquente parmi tous les Pokémon ?
-20. Comment supprimer les Pokémon de type Normal/Vol ?
+20. Quel est le Pokémon avec le plus haut nombre de points de défense ?
 21. Quels sont les noms et les types des Pokémon dont le nom et le type ne sont pas vides et le numéro est supérieur à 100 ?
 22. Comment augmenter de 10 les points d'attaque et de défense de tous les Pokémon de type Feu ?
+23.	Quels sont les Pokémon dont la somme des points d’attaque et de défense est supérieure à 100 ?
+24.	Quels sont les Pokémon dont la faiblesse est contre le type Feu et dont le nombre de points de vie est supérieur à 50 ?
+25.	Comment supprimer les Pokémon de type Normal/Vol ?
+
