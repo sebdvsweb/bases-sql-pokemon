@@ -42,7 +42,21 @@ VALUES
 ('Rattata', 'Normal', 19, 30, 35, 30, 'Combat'),
 ('Rattatac', 'Normal', 20, 55, 80, 50, 'Combat'),
 ('Piafabec', 'Normal', 21, 35, 35, 30, 'Combat'),
-('Rapasdepic', 'Normal/Poison', 22, 60, 40, 60, 'Combat');
+('Rapasdepic', 'Normal/Poison', 22, 60, 40, 60, 'Combat'),
+('Mewtwo', 'Psy', 150, 110, 90, 106, 'Ténèbres'),
+('Mew', 'Psy', 151, 100, 100, 100, 'Ténèbres'),
+('Mewtwo Mega X', 'Psy/Combat', 150, 190, 100, 106, 'Ténèbres'),
+('Mewtwo Mega Y', 'Psy', 150, 150, 70, 106, 'Ténèbres'),
+('Germignon', 'Plante', 152, 49, 65, 45, 'Feu'),
+('Macronium', 'Plante', 153, 62, 80, 60, 'Feu'),
+('Meganium', 'Plante', 154, 82, 100, 80, 'Feu'),
+('Hericendre', 'Feu', 155, 52, 43, 39, 'Eau'),
+('Feurisson', 'Feu', 156, 64, 58, 58, 'Eau'),
+('Typhlosion', 'Feu', 157, 84, 78, 78, 'Eau'),
+('Kaiminus', 'Eau', 158, 65, 64, 50, 'Plante'),
+('Crocrodil', 'Eau/Ténèbres', 159, 80, 80, 65, 'Plante'),
+('Aligatueur', 'Eau/Ténèbres', 160, 105, 100, 85, 'Plante'),
+('Leuphorie', 'Normal', 242, 55, 55, 255, 'Combat');
 ```
 
 ## Questions
