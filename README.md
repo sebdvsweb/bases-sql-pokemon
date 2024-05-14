@@ -14,7 +14,11 @@ CREATE TABLE pokemon (
     pv INT NOT NULL,
     faiblesse VARCHAR(255) NOT NULL
 );
+```
 
+## Insertion des valeurs
+
+```sql
 INSERT INTO pokemon (nom, type, numero, attaque, defense, pv, faiblesse)
 VALUES
 ('Pikachu', 'Électrique', 25, 43, 39, 35, 'Eau'),
@@ -43,26 +47,28 @@ VALUES
 
 ## Questions
 
+Trouver et notez sur un document Word ou Openoffice les requêtes SQL permettant de répondre aux questions suivantes.
+
 
 1. Quels sont les noms, les types et les numéros de tous les Pokémon ?
 2. Quels sont les noms et les types des Pokémon de type Feu ?
-Quels sont les noms et les points d'attaque des Pokémon avec plus de 60 points d'attaque ?
-Quel est le nom du Pokémon qui a le plus de points de vie ?
-Quels sont les noms des Pokémon dont le nom commence par "Ca" ?
-Combien de Pokémon y a-t-il de chaque type ?
-Quels sont les noms des Pokémon faibles au type Eau ?
-Quels sont les noms et les types des Pokémon dont le nom et le type ne sont pas vides ?
-Quels sont les noms uniques des Pokémon ?
-Quels sont les noms des Pokémon classés par numéro ?
-Comment mettre à jour les points d'attaque de Pikachu à 50 ?
-Quels sont les noms et les PV des Pokémon avec des PV compris entre 30 et 40 ?
-Quels sont les noms des Pokémon dont le nom contient au moins 5 caractères ?
-Quels sont les noms des Pokémon dont le nom commence par une voyelle ?
-Quels sont les noms et les types des Pokémon dont le type secondaire est Poison ?
-Comment insérer un nouveau Pokémon dans la table avec les informations souhaitées ?
-Comment modifier le type de Carapuce en Eau/Acier ?
-Quels sont les noms des Pokémon contenant la chaîne de caractères "sa" ?
-Quelle est la faiblesse principale la plus fréquente parmi tous les Pokémon ?
-Comment supprimer les Pokémon de type Normal/Vol ?
-Quels sont les noms et les types des Pokémon dont le nom et le type ne sont pas vides et le numéro est supérieur à 100 ?
-Comment augmenter de 10 les points d'attaque et de défense de tous les Pokémon de type Feu ?
+3. Quels sont les noms et les points d'attaque des Pokémon avec plus de 60 points d'attaque ?
+4. Quel est le nom du Pokémon qui a le plus de points de vie ?
+5. Quels sont les noms des Pokémon dont le nom commence par "Ca" ?
+6. Combien de Pokémon y a-t-il de chaque type ?
+7. Quels sont les noms des Pokémon faibles au type Eau ?
+8. Quels sont les noms et les types des Pokémon dont le nom et le type ne sont pas vides ?
+9. Quels sont les noms uniques des Pokémon ?
+10. Quels sont les noms des Pokémon classés par numéro ?
+11. Comment mettre à jour les points d'attaque de Pikachu à 50 ?
+12. Quels sont les noms et les PV des Pokémon avec des PV compris entre 30 et 40 ?
+13. Quels sont les noms des Pokémon dont le nom contient au moins 5 caractères ?
+14. Quels sont les noms des Pokémon dont le nom commence par une voyelle ?
+15. Quels sont les noms et les types des Pokémon dont le type secondaire est Poison ?
+16. Comment insérer un nouveau Pokémon dans la table avec les informations souhaitées ?
+17. Comment modifier le type de Carapuce en Eau/Acier ?
+18. Quels sont les noms des Pokémon contenant la chaîne de caractères "sa" ?
+19. Quelle est la faiblesse principale la plus fréquente parmi tous les Pokémon ?
+20. Comment supprimer les Pokémon de type Normal/Vol ?
+21. Quels sont les noms et les types des Pokémon dont le nom et le type ne sont pas vides et le numéro est supérieur à 100 ?
+22. Comment augmenter de 10 les points d'attaque et de défense de tous les Pokémon de type Feu ?
