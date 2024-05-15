@@ -8,9 +8,9 @@ CREATE TABLE pokemon (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nom VARCHAR(50) NOT NULL,
     type VARCHAR(50) NOT NULL,
-    numero INT NOT NULL UNIQUE,
-    attaque INT NOT NULL,
-    defense INT NOT NULL,
+    numero INT NOT NULL,
+    attaque INT,
+    defense INT,
     pv INT NOT NULL,
     faiblesse VARCHAR(255) NOT NULL
 );
@@ -34,9 +34,9 @@ VALUES
 ('Chrysacier', 'Insecte', 11, 20, 55, 30, 'Feu'),
 ('Papilusion', 'Insecte/Vol', 12, 40, 35, 35, 'Feu'),
 ('Aspicot', 'Insecte', 13, 35, 35, 40, 'Feu'),
-('Coconfort', 'Insecte/Poison', 14, 20, 60, 30, 'Feu'),
+('Coconfort', 'Insecte/Poison', 14, , , 30, 'Feu'),
 ('Dardargnan', 'Insecte/Vol', 15, 65, 45, 40, 'Feu'),
-('Roucool', 'Normal/Vol', 16, 48, 48, 40, 'Combat'),
+('Roucool', 'Normal/Vol', 16, 48, , , 'Combat'),
 ('Roucoups', 'Normal/Vol', 17, 60, 55, 50, 'Combat'),
 ('Roucarnage', 'Normal/Vol', 18, 80, 75, 70, 'Combat'),
 ('Rattata', 'Normal', 19, 30, 35, 30, 'Combat'),
@@ -71,7 +71,7 @@ Trouver et notez sur un document Word ou Openoffice les requêtes SQL permettant
 5. Quels sont les noms des Pokémon dont le nom commence par "Ca" ?
 6. Combien de Pokémon y a-t-il de chaque type ?
 7. Quels sont les noms des Pokémon faibles au type Eau ?
-8. Quels sont les noms et les types des Pokémon dont le nom et le type ne sont pas vides ?
+8. Quels sont les noms et les types des Pokémon dont l'attaque ou la défense sont vides et non renseignées ?
 9. Quels sont les noms uniques des Pokémon ?
 10. Quels sont les noms des Pokémon classés par numéro ?
 11. Comment mettre à jour les points d'attaque de Pikachu à 50 ?
